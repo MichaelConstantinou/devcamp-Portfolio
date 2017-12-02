@@ -15,6 +15,9 @@
 /log/*
 /tmp/*
 !/log/.keep
+
+#Don't want to show secrets
+/config/secrets.yml
 !/tmp/.keep
 
 /node_modules
