@@ -19,7 +19,7 @@ puts "5 skills posts created"
     title: "Portfolio title: #{portfolio_item}",
     subtitle: "My great service",
     body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In porta eu lacus sed ultrices. Cras eu dui ac orci luctus euismod. Mauris at erat vitae lorem vulputate accumsan. Integer vel ex est. Cras efficitur pellentesque felis quis sagittis. Nullam sed elit facilisis, tempor mauris sit amet, venenatis leo. Pellentesque ac vehicula nibh. Donec vitae leo euismod, varius est at, pharetra tortor" ,
-    main_image: "http://placeholder.it/600x400",
-    thumb_image: "http://placeholder.it/350x200")
+    main_image: "http://placehold.it/600x400",
+    thumb_image: "http://placehold.it/350x200")
 end
 puts "9 portfolio items created"
