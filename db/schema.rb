@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180323105112) do
+ActiveRecord::Schema.define(version: 20180323211301) do
 
   create_table "blogs", force: :cascade do |t|
     t.string "title"
@@ -51,6 +51,7 @@ ActiveRecord::Schema.define(version: 20180323105112) do
     t.integer "percent_utilised"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.text "badge"
   end
 
   create_table "topics", force: :cascade do |t|
